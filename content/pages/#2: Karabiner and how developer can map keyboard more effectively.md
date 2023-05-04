@@ -1,0 +1,12 @@
+---
+type:
+- blogs
+tags:
+- setup
+- keymapping
+title: #2: Karabiner and how developer can map keyboard more effectively
+categories:
+date: 2023-05-04
+lastMod: 2023-05-04
+---
+draft title for next post
