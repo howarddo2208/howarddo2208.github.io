@@ -62,3 +62,7 @@ menu:
       name: Archive
       url: /archives/
       weight: 20
+
+enableGitInfo: true
+frontmatter:
+  lastmod: ["lastmod", ":git", "date", "publishDate"]
