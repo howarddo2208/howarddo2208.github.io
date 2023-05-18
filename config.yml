@@ -4,9 +4,12 @@ title: Howard Do
 theme: "PaperMod"
 
 params:
+  meta:
+    favicon: true
+  comments: true
   homeInfoParams:
-    Title: Sup bruh 😎
-    Content: Welcome to my awesome blog!
+    Title: Sup bruh 😎 Welcome to my blog
+    Content: I'm Howard, a developer based in HCMC, Vietnam. I'm an avid Linux user, use Arch btw. Love open-source and tinkering with terminal apps. I love my Neovim more than girlfriend, which I don't have. Check out my [dotfiles](https://github.com/howarddo2208/nixfiles). My knowledge is collected from various source from the internet, I'm trying to write blogs to help consolidate my thoughts and also wanting to help you guys a thing or two. If you find my blog helpful, follow my Twitter!
 
   socialIcons: # optional
     - name: "github"
