@@ -20,8 +20,8 @@ params:
       url: "https://twitter.com/howarddo2208"
     # - name: "kofi"
     #   url: "https://buymeacoffee.com/XXX"
-    # - name: "rss"
-    #   url: "https://XXX.github.io/index.xml"
+    - name: "rss"
+      url: "https://howarddo2208.github.io/index.xml"
   ShowReadingTime: true
   author: "Howard Do"
   contact: "howarddo2208@gmail.com"
@@ -29,13 +29,13 @@ params:
   copyright: "<!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).<!--/Creative Commons License-->"
   mobileMenu: true
 
- #Google Analytics 4 optional
-  env: #production
-  GoogleAnalytics: "G-00000XXXXX" 
-  sitemap:
-    changefreq: daily
-    filename: sitemap.xml
-    priority: 0.5
+  #Google Analytics 4 optional
+  # env: #production
+  # GoogleAnalytics: "G-00000XXXXX"
+  # sitemap:
+  #   changefreq: daily
+  #   filename: sitemap.xml
+  #   priority: 0.5
 
 outputs:
   home:
