@@ -24,11 +24,11 @@ Additionally, Nix has a massive number of packages and works on both macOS, Linu
 Now if you are convinced to use Nix, let's get started. Just head over to their [website](https://nixos.org/) and follow the installation instructions. Then we will start with the most basic commands: `nix-shell` and `nix-env`.
 
 ## Nix-shell
-think of it as a shell that you can experiment with all  the packages you want to try but not  intending to install yet. A quick command to pull packages and then experiment with them is `nix-shell -p <pkg-1> <pkg-2>`. This will launch a bash shell which only contains  packages you listed. When you are done with the experiment, press `Ctrl+D` or execute `exit` to get out of the shell.
+think of it as a shell that you can experiment with all the packages you want to try but not intending to install yet. A quick command to pull packages and then experiment with them is `nix-shell -p <pkg-1> <pkg-2>`. This will launch a bash shell which only contains packages you listed. When you are done with the experiment, press `Ctrl+D` or execute `exit` to get out of the shell.
 
 To search for a package, the easiest way is to head to https://search.nixos.org/ and choose the unstable channel for the latest package version.
 
-{{< figure align="center" src="/assets/02-nixshell-cowsay.png" link="" title="nix-shell example" caption="as you can see, cowsay is only available while we are in nix-shell" >}}
+{{< figure align="center" src="/assets/02-nixshell-cowsay.png" link="" title="nix-shell example" caption="as you can see, `cowsay` is only available while we are in nix-shell" >}}
 
 Later, if you want to remove the unused package, run `nix-collect-garbage`
 
