@@ -9,9 +9,11 @@ tags:
   - fzf
 ---
 
-Today I wrote a script to quickly search, delete and add new tmux session with the power of `fzf`. The `--bind` flag of `fzf` took me quite some time to debug because of many escape backslashes I needed to add.
+Today I wrote a script to quickly search, delete and add new tmux session with the power of `fzf`. 
 
-Here's the script
+## The script
+
+The `--bind` flag of `fzf` took me quite some time to debug because of many escape backslashes I needed to add.
 
 ```bash
 #!/bin/bash
