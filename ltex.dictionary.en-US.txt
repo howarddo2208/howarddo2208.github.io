@@ -1,3 +1,9 @@
 Neovim
 nixpkgs
 fzf
+zsh
+dotfile
+TODO
+oh-my-zsh
+Atuin
+Zsh
