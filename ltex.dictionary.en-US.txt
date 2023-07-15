@@ -7,3 +7,10 @@ TODO
 oh-my-zsh
 Atuin
 Zsh
+LibreWolf
+Mullvad
+UnGoogled
+Qwant
+StartPage
+Whoogle
+SearXNG
